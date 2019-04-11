@@ -1,0 +1,4 @@
+torchvision==0.2.1
+visdom==0.1.7
+torch==1.0.0
+matplotlib==2.0.2
