@@ -42,6 +42,9 @@ BATCH_SIZE = 8192		# Data number per batch
 LR = 0.001              # learning rate
 VISDOM = False           # 绘图
 
+if not os.path.exists('./ModelBackup/'):
+    os.makedirs('./ModelBackup/')
+
 ##############################################################################################
 ########################### Mnist digits dataset preparation #################################
 DOWNLOAD_MNIST = False  # 是否下载
